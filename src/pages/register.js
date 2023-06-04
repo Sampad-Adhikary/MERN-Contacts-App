@@ -100,7 +100,7 @@ function Register() {
             {/* <div className="coverImageBox"> */}
               <img
                 className="coverImage"
-                src="./resources/signupCover.png"
+                src="https://drive.google.com/uc?id=1Hf_lcfar2RjGH8flkzRA-pMh6XfazDhb"
                 width={"90%"}
                 alt="CoverImage"
               />
