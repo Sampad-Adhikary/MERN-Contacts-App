@@ -1,0 +1,260 @@
+#root{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: #F5F5F5;
+    color: #4D455D;
+}
+
+.coverImageBox{
+    height:100vh;
+    background-color: #fff;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.coverImage{
+    width: 80%;
+    /* margin: 10% auto; */
+}
+
+.col-frm{
+    padding-top: 5%;
+    background-color: #91b3fa;
+    height: 100vh;
+    text-align: center;
+}
+.formBox{
+    margin: 0 auto;
+    width: 70%;
+    height: 85%;
+    padding: 5%;
+    background-color: #bdd0fb;
+    border-radius: 10px;
+    
+-webkit-box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.59);
+-moz-box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.59);
+box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.59);
+}
+
+.formBox h1{
+    margin-bottom: 5%;
+    font-size: 2.75rem;
+    font-weight: 900;
+    color: #0c0469;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#loginH1{
+    margin-top: 10%;
+}
+
+.linkPara{
+    font-size: 1.25rem;
+    margin-top: 5%;
+    color: #0c0469;
+}
+
+.linkPage{
+    color: #fe7062;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 900;
+}
+.linkPage:hover{
+    color: #005555;
+}
+
+.registerButton{
+    margin-top: 5%;
+    background-color: #fe7062;
+    border: none;
+    border-radius: 10px;
+    padding: 2%;
+    width: 65%;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Montserrat';
+    cursor: pointer;
+-webkit-box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.59);
+-moz-box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.59);
+box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.59);
+}
+
+.registerInput{
+    margin-bottom: 5%;
+    width: 70%;
+    height: 6vh;
+    background-color: #bdd0fb;
+    border: none;
+    border-color: #0c0469;
+    border-bottom-style: solid;
+}
+
+.registerInput:focus,.registerInput:active{
+    color: #0c0469;
+    outline: none;
+}
+
+.registerInput::placeholder{
+    color: #19A7CE;
+}
+
+.registerButton:hover{
+    background-color: #005555;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+/* Dashboard */
+.editBox{
+    height: 100vh;
+    background-color: #91b3fa;
+    padding: 5%;
+}
+
+.greeting{
+    text-align: left;
+    margin-left: 5%;
+    font-size: 4rem;
+    font-family: 'Montserrat';
+    color: #0c0469;
+    font-weight: 800;
+    /* margin-right: 10%; */
+}
+
+#editForm{
+    padding-top: 5%;
+    height: 40%;
+    margin-top: 15%;
+    
+}
+
+#editInput{
+    width: 80%;
+    font-size: 1.5rem;
+}
+
+#editbtn{
+    width: 75%;
+}
+
+#logoutBtn{
+    background-color: #91b3fa;
+    border-color: #0c0469;
+    color: #0c0469;
+    width: 50%;
+    border-style: solid;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 2% ;
+}
+
+#logoutBtn:hover{
+    background-color: #0c0469;
+    color: #fff;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+h3{
+    font-size: 2rem;
+    font-weight: 800;
+    color: #4D455D;
+}
+
+.headingBig{
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: 'Montserrat';
+    color: #0c0469;
+    text-align: left;
+    margin: 5%;
+}
+
+.contactList{
+    text-align: left;
+    padding-top: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.notFound{
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+.clistBtn{
+    font-size: 1rem;
+    width: 30%;
+    margin-top: 2% ;
+    margin-right: 2%;
+    color: #4D455D;
+    border-color: #4D455D;
+    border-style:solid;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.clistBtn:hover{
+    background-color: #0c0469;
+    color: #fff;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.col-list{
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+
+
+li{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #4D455D;
+    margin-bottom: 2%;
+    /* background-color: #19A7CE; */
+}
+
+.contactList{
+    list-style-type:none
+}
+
+.contactListDiv{
+    /* background-color: #E3F4F4; */
+    background-color: #fff;
+    width: 95%;
+    margin: 0 auto;
+    padding: 2%;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.4);
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.4);
+}
+
+.col-avatar{
+    width: fit-content;
+}
+
+.editFrm{
+    width: 100%;
+    margin-bottom: 5%;
+    border: none;
+    border-color: #4D455D;
+    border-bottom-style: solid;
+}
+.editFrm:focus{
+    outline: none;
+}
+/* Error Page */
+.error{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    text-align: center;
+    padding-top: 15vh;
+}
