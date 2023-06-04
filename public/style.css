@@ -250,6 +250,21 @@ li{
 .editFrm:focus{
     outline: none;
 }
+
+.iconFoo{
+    margin: 10px;
+    margin-bottom: 0;
+    width: 30px;
+}
+
+.footerP{
+    margin-right: 2%;
+}
+
+.Footer{
+    margin-top: 12%;
+}
+
 /* Error Page */
 .error{
     height: 100vh;

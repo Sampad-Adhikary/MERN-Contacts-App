@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Greet from "../components/greet";
+import Footer from "../components/footer";
 
 export default function Dashboard() {
   const navigate = useNavigate();
@@ -289,7 +290,7 @@ export default function Dashboard() {
           </form>
           
         </div>
-        <p>Designed and Developed by <a href="">Sampad Adhikary</a></p>
+        <Footer/>
       </div>
     </div>
     </div>
