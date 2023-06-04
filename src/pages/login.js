@@ -34,7 +34,7 @@ function Login() {
       <div className="coverImageBox col-lg-6 col-md-6 col-sm-12 ">
               <img
                 className="coverImage"
-                src="https://drive.google.com/uc?id=1NGuaEmiZCuWwVyNkFvqLF_H-R2t7kPrK"
+                src="https://drive.google.com/uc?id=1s5iF9H66BOTK_u0Yaen22Iw0LiFu0AMQ"
                 width={"90%"}
                 alt="CoverImage"
               />
