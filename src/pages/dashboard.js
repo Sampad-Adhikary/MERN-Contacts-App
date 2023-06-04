@@ -222,7 +222,7 @@ export default function Dashboard() {
                   <div className="contactListDiv">
                     <div className="row">
                     <div className="col-avatar col-6">
-                      <img className="avatar" src="https://drive.google.com/uc?id=" alt="avtar"/>
+                      <img className="avatar" src="https://drive.google.com/uc?id=1l2C9zhRGdbvjJLpebm76QTkj8ZtzQfw-" alt="avtar"/>
                     </div>
                     <div className="col-6">
                       <div className="clistItem">{contact.name}</div>
@@ -242,7 +242,7 @@ export default function Dashboard() {
           </ul>
         ) : (
           <div className="notFound">
-            <img src="https://drive.google.com/uc?id="/>
+            <img src="https://drive.google.com/uc?id=1-EDbONJLnQ4la3lQKY9HtUIPvBsNg-Qw"/>
             <h3>😅 Add some contacts, Maybe..</h3>
           </div>
         )}
